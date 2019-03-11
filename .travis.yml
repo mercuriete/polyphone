@@ -17,5 +17,5 @@ addons:
     - libogg-dev
     - libssl-dev
 script:
-  - QMAKE_CC=gcc-7 QMAKE_CXX=gcc-7 cd sources && qmake && make -j$(nproc)
+  - cd sources && QMAKE_CC=gcc-7 QMAKE_CXX=gcc-7 qmake && make -j$(nproc)
 
