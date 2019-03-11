@@ -4,6 +4,5 @@ addons:
     - libqt4-dev
     - qt4-qmake
 script:
-  - qmake
-  - make
+  - cd sources && qmake && make
 
