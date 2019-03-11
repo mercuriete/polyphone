@@ -1,7 +1,10 @@
 dist: xenial
 addons:
   apt:
+    sources:
+    - ubuntu-toolchain-r-test
     packages:
+    - g++-7
     - qt5-default
     - libqt5svg5-dev
     - libasound2-dev
