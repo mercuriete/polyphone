@@ -1,8 +1,17 @@
 addons:
   apt:
     packages:
-    - libqt4-dev
-    - qt4-qmake
+    - qt5-default
+    - libqt5svg5-dev
+    - libasound2-dev
+    - libjack-jackd2-dev
+    - portaudio19-dev
+    - librtmidi-dev
+    - libstk0-dev
+    - libqcustomplot-dev
+    - libvorbis-dev
+    - libogg-dev
+    - libssl-dev
 script:
   - cd sources && qmake && make
 
