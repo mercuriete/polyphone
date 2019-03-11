@@ -13,5 +13,5 @@ addons:
     - libogg-dev
     - libssl-dev
 script:
-  - cd sources && qmake && make
+  - cd sources && qmake && make -j$(nproc)
 
